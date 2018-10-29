@@ -1,0 +1,25 @@
+.main{width: 1200px;height: auto;margin: 0 auto;padding:40px 0px;}
+
+ol{width: 1030px;height: auto;margin-left: 126px;}
+ol li{width: 303px;height: 384px;float: left;margin:0px 38px 36px 0px;}
+
+.main ol li a{display: block;width:303px;height: 384px;position:relative;}
+.main ol li img{width: 303px;height: 307px;float: left;}
+.main ol li h5{width: 303px ;height: 61px;float: left;text-align: center;font-family: "微软雅黑";font-size: 14px;color: #333333;background: #eae7e7;padding-top: 16px;}
+.main ol li h5 span{display: block;font-family: "微软雅黑";font-size: 12px;color: #666666;padding-top: 12px;}
+
+.main ol li a:hover>span{background:url(../img/pro_bg02.png);position:absolute;display: block;width: 303px;height: 307px;}
+
+.main ol li a:hover h5{background:#993366;color: #FFFFFF;}
+.main ol li a:hover h5 span{color: #FFFFFF;}
+
+.page{width: 1200px;height: 30px;margin:0 auto;padding:44px 0px 0px 0px;clear: both;}
+			
+.page ul{width: auto;height: 30px;text-align:center;}
+			
+.page ul li{margin:0px 10px;display: inline-block;;line-height: 30px;font-family: "微软雅黑";font-size: 14px;}
+			
+.page ul li a:hover,.page ul li .on{color: #993366;}
+			
+.page ul li a{display:block;font-family: "微软雅黑";font-size:14px;text-decoration: none;color: #333333;}
+.page ul .point{width:20px;height: 2px;background: url(../img/news_point.jpg);}

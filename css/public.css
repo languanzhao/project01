@@ -1,0 +1,11 @@
+
+.content{width:auto;height:auto;position: relative;/*overflow: hidden;*/}
+.content .banner{display: block;width: 1920px;height: 400px;}
+.content .banner img{width: 1920px;height: 400px;position: absolute;left: 50%;margin-left: -960px;overflow: hidden;}
+.location{width: 1160px;height: 22px;margin: 52px auto 0px;padding: 0px 22px 0px 18px;}
+.location h6{float: left;font-family: "微软雅黑";font-size: 18px;color: #996699;}
+.location ul{float: right;}
+.location ul li{float: left;font-family: "微软雅黑";font-size: 14px;color: #666666;}
+.location ul li a{font-family: "微软雅黑";font-size: 14px;color: #666666;}
+.location ul .on{color:#993366;}
+.location ul li a:hover{color: #993366;}

@@ -1,0 +1,11 @@
+.main{width: 1200px;height: auto;margin: 0px auto;overflow: hidden;padding:22px 0px 44px;}
+.main img{width: 430px;height:385px ;padding: 0px 385px;}
+.main p{text-align: center;margin: 20px 0px 55px 0px;font-family: "微软雅黑";font-size: 18px;color: #666666;}
+.main ul{width: auto;height: auto;overflow:hidden;margin-left: 136px;}
+.main ul li{float: left;width: 340px;font-family: "微软雅黑";font-size: 14px;color: #666666;margin-bottom: 12px;}
+
+
+.main ol{clear: both;padding:58px 0px 0px 136px;}
+.main ol li{margin-bottom:14px}
+.main ol li a{font-family: "微软雅黑";font-size: 12px;color: #333333;}
+.main ol li a:hover{color: #993366;}

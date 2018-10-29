@@ -1,0 +1,108 @@
+                                                                                                                                  <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>联系我们</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+		<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script type="text/javascript" src="js/contact_value.js"></script>
+		<script type="text/javascript" src="js/index_value.js"></script>
+
+	</head>
+	<body>
+			<div class="header">
+				<a class="logo" href="index.html"><img src="img/logo.png" alt=""/></a>
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="index.html" >首页</a>
+						</li>
+						<li>
+							<a href="about.html">公司介绍<img src="img/arrow.png" alt="" /></a>
+							<ul>
+								<li><a href="about.html">公司简介</a></li>
+								<li><a href="about.html">企业文化</a></li>
+								<li><a href="#">品牌故事</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="news.html" >新闻中心<img src="img/arrow.png" alt="" /></a>
+							<ul>
+								<li><a href="news_details.html">国际新闻</a></li>
+								<li><a href="#">国内新闻</a></li>
+								<li><a href="#">行内新闻</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="product.html" >产品中心<img src="img/arrow.png" alt="" /></a>
+							<ul>
+								<li><a href="pro_details.html">保健系列</a></li>
+								<li><a href="#">理疗系列</a></li>
+								<li><a href="#">美容系列</a></li>
+								<li><a href="#">休闲系列</a></li>
+								<li><a href="#">礼品系列</a></li>
+							</ul>
+						</li>
+						<li>
+						<a href="contact.html" class="last on">联系我们</a>
+						</li>
+					</ul>
+				</div>
+				<form id="header_form">
+					<input type="text" name="" placeholder="搜索" value="搜索" class="text"/>
+					<input type="submit" value="" class="buttom"/>
+				</form>
+			</div>
+			<div class="content clearfix">
+				<div class="banner"><img src="img/contact_banner.png" alt=""/></div>
+				<div class="location">
+					<h6>联系方式</h6>
+					<ul>
+						<li>当前位置></li>
+						<li><a href="index.html">首页</a><span>&gt;</span></li>
+						<li class="on">联系方式</li>
+						
+					</ul>
+				</div>
+				<div class="main clearfix">
+					<div class="contact_left">
+					<dl>
+						<dt>广州创晟电子科技有限公司</dt>
+						<dd>地址：广州市天河区东圃镇黄村......</dd>
+						<dd>邮编：105004</dd>
+						<dd>电话：0775-29682341</dd>
+						<dd>手机：19847262335/19756466532</dd>
+						<dd>邮箱：92684652@qq.com</dd>
+					</dl>
+					<ol>
+						<li><a href="#"><img src="img/weibo.png"/></a></li>
+						<li><a href="#"><img src="img/wechat.png"/></a></li>
+						<li><a href="#"><img src="img/qq.png"/></a></li>	
+					</ol>
+					<img src="img/code.png" class="code" alt=""/>
+				</div>
+				<form id="form">
+					<input type="text" class="name" value="姓名&nbsp:"/>
+					<input type="text" class="mailbox" value="邮箱&nbsp:"/>
+					<input type="text" class="phone" value="电话&nbsp:"/>
+					<textarea name="" rows="" cols="" class="box" >留言&nbsp:</textarea>
+					<input type="text" class="idcode"  value="验证码"/>
+					<img src="img/contact_yanzhengma.jpg"/>
+					<input type="submit" value="提交" class="buttom"/>
+				</form>
+			</div>
+			<div class="map" id="map">
+				<iframe src="map.html" width="1920px" height="500px" scrolling="no" frameborder="0"></iframe>
+			</div>
+			</div>
+			<div class="copyright">
+				CopyRight © 2018创晟科技有限公司 粤ICP备1801595841号
+			</div>
+	</body>
+	<script type="text/javascript">
+		$('#form').Form();
+		$('#header_form').Header_form();
+	</script>
+</html>

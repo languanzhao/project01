@@ -1,0 +1,92 @@
+.content{width: auto;height: auto;}
+.banner{width:auto;height: 600px;position: relative;}
+.slidebox{width: 1920px;height: 600px;overflow: hidden;position:absolute;left:50%;margin-left:-960px;}
+.slidebox .btn{width:264px ;height:10px;position: absolute;left: 50%;bottom: 57px;margin-left: -132px;}
+.slidebox .btn ul li{width: 60px;height: 10px;background: #FFFFFF;margin:0px 14px;float: left;cursor:pointer;}
+.slidebox .btn ul li:hover,.slidebox .btn ul .on{background: #993366;}
+
+.title{position: relative;}
+
+.title:before{content: ""; ;background:url(../img/title_left.png) ;width: 310px;height: 10px;position: absolute;right: 146px;top: 26px;}
+.title:after{content: "";background:url(../img/title_right.png);width: 310px;height: 10px;position: absolute;left: 146px;top:26px;}
+
+
+.title .middle{width: 314px;height: 62px;text-align: center;margin: 0px auto;position: relative;}
+
+.title .middle h2{font-family: "微软雅黑";font-size: 36px;line-height:36px;color: #333333;padding:10px 0px 8px 0px;}
+.title .middle h3{font-family: "微软雅黑";font-size: 14px;color: #666666;line-height: 14px;}
+.title{padding: 0px 146px;width: 908px;height: 62px;}
+
+
+.about{width: 1200px;height: 663px;margin:0px auto;padding-top: 30px;}
+.about_main{width: 1200px;height: 443px;padding-top: 66px;}
+.about_main img{width:535px;height: 443px;float: left;}
+.about_right{width: 610px;height: 535px;float: right;}
+.about_right h4{font-family: "微软雅黑";font-size: 18px;color: #993366;}
+.about_right h5{font-family: "微软雅黑";font-size: 18px;color: #993366;padding:24px 0px 54px 0px;}
+.about_right p{font-family: "微软雅黑";font-size: 14px;color: #333333;line-height: 24px;text-indent: 2em;width: 594px;height: auto;}
+.about_right span{font-family: "微软雅黑";font-size: 12px;color: #cccccc;line-height: 20px;padding:30px 0px 25px 0px;width: 597px;height: auto;text-align: justify;display: block;}
+.about_right a{display: block;width: 107px;height: 51px;border:1px solid #999999;font-family: "微软雅黑";font-size: 14px;color: #993366;text-align: center;line-height: 51px;}
+
+
+.news{width: 1200px;height: auto;margin:0px auto;padding-top: 60px;}
+.news_main{width: 1200px;height:auto;padding-top: 52px;margin-bottom: 62px;}
+.news_main .top{width: 1200px;height: auto;overflow: hidden;}
+.news_left{width:545px;height: 445px;border: 1px solid #cccccc;float: left;}
+.news_left h5{width:547px;height:62px;float: left ;}
+.news_left a img{width: 547px;height: 384px;float: left;}
+.news_left a{display:block;width:547px;height:62px;font-family: "微软雅黑";font-size: 18px;color: #333333;text-align: center;line-height:62px ;}
+.news_main ul{width: 614px;height: auto;float: right;}
+.news_main ul li{width: 614px;height: 147px;border-bottom:1px solid #cccccc;}
+.news_main ul li:first-child{border-top:1px solid #cccccc;}
+.news_main .date{width: 136px;height:147px;text-align: center;float: left;}
+
+.news_main .date b{display:block;padding:40px 0px 22px 0px;font-family: "微软雅黑";font-size: 18px;color: #333333;}
+.news_main .date span{display: block;font-family: "微软雅黑";font-size: 14px;color: #333333;}
+.news_main ul li:hover .date span{color: #ff3399;cursor: pointer;}
+.news_main ul li:hover .date b{color: #ff3399;cursor: pointer;}
+
+
+.news_main ul li .text{width: 418px;height: 115px;float: left;padding-top: 32px;}
+.news_main ul li h6 a{display: block;font-family: "微软雅黑";font-size: 18px;color: #333333;}
+.news_main ul li p{width:422px;height:auto;margin-top: 10px;line-height: 24px;font-family: "微软雅黑";font-size: 14px;color: #666666;}
+
+.news_main ul li:hover a{color:#ff3399;cursor: pointer;}
+.news_main ul li:hover h6 a{color:#ff3399;cursor: pointer;}
+.news_main ul li:hover p{color:#ff3399;cursor: pointer;}
+
+.more{display:block;width: 107px;height: 51px;border:1px solid #999999;font-family: "微软雅黑";font-size: 14px;color: #993366;line-height:51px;text-align:center;margin: 50px auto;}
+
+
+.product{width: 1200px;height: auto;margin: 0px auto;}
+.product ul{width: 1257px;height:600px;margin-top: 50px;overflow: hidden;}
+.product ul li{margin-right: 49px;float:left;}
+
+.product ul li h5{width: 366px;height: 82px;background: #eaa9d4;font-family: "微软雅黑";font-size: 18px;color: #FFFFFF;text-align: center;line-height: 82px;float: left;}
+.product ul li img{width: 364px;height: 515px;border:1px solid #cccccc;float: left;}
+
+.product ul li a{display: block;width: 366px;height: 599px;position: relative;}
+
+/*第一种方法		hover下的后置显示*/
+.product ul li a:hover:after{content:"";background: url(../img/pro_bg01.png);display: block;width: 366px;height: 599px;position: absolute;left:0px;top: 0px;}
+
+/*第二种方法		后置的隐藏显示*/
+/*.product ul li a:after{content:"";background: url(../img/pro_bg01.png);display: none;width: 366px;height: 599px;position: absolute;left:0px;top: 0px;}
+.product ul li a:hover:after{content:"";display: block;}*/
+
+/*第三种方法		添加一个span标签*/
+/*.product ul li a:hover:span{content:"";background: url(../img/pro_bg01.png);display: block;width: 366px;height: 599px;position: absolute;left:0px;top: 0px;}*/
+
+.contact{width:auto;height:auto;background: url(../img/index_contact_bg.jpg) no-repeat 50% 0%;padding-top: 40px;overflow: hidden;}
+.contact .main{width: 1200px;height: auto;margin:0px auto;}
+.contact .title .middle h3,.contact .title .middle h2{color: #CCCCCC;}
+.contact .main_left{float: left;padding-left: 203px;margin-top: 50px;}
+.contact .main_left h2{font-family: "微软雅黑";font-size: 18px;color: #FFFFFF;}
+.contact .main_left ul{margin: 48px 0px 80px 0px;}
+.contact .main_left ul li{font-family: "微软雅黑";font-size: 14px;color: #FFFFFF;margin-bottom: 25px;}
+.contact .main_left ol li{float: left;margin-right: 32px;}
+.contact .main_left ol li a{display:block;width:26px;height: 26px;}
+.contact form{float: right;width: 362px;margin: 50px 169px 0px 0px;}
+.contact form input{width: 350px;height: 41px;border:1px solid #CCCCCC;margin-bottom: 23px;background: transparent;font-family: "微软雅黑";font-size: 14px;color: #FFFFFF;padding: 0px 5px;line-height: 41px;}
+.contact form textarea{width: 350px;height: 109px;margin-bottom: 49px;border:1px solid #CCCCCC;font-family: "微软雅黑";font-size: 14px;color: #FFFFFF;padding: 10px 5px;background: transparent;}
+.contact form .buttom{width: 364px;height: 41px;border: 0 none;background: #993366;padding: 0px;cursor: pointer;}
